@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hekv/axios-hero.git"
+    "url": "git+https://github.com/hekv/vue-axios-hero.git"
   },
   "keywords": [
     "vue",
