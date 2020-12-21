@@ -1,15 +1,14 @@
 import axios from "axios";
 
-// This is your plugin object. It can be exported to be used anywhere.
 const AxiosHero = {
   // The install method is all that needs to exist on the plugin object.
   // It takes the global Vue object as well as user-defined options.
   install(Vue, options) {
-    console.log(options);
-    Vue.mainAxiosInstance = axios.create(options.baseConfig);
-    Vue.Calls = {};
-    //Vue.makeRequest("login", {data: data, p: p, id: id})
+    Vue.mainAxiosInstance = axios.create(options.baseConfig); // Initiate axios instance
+    Vue.Calls = {}; // Initiate empty call object
+    // Plugin's main function
     Vue.makeRequest = function (n, p) {
+      // Pass config data to the call
       Vue.Calls[n].data = p.data;
       Vue.Calls[n].params = p.params;
       Vue.Calls[n].headers = p.headers;
@@ -30,10 +29,10 @@ const AxiosHero = {
       // Anything added to a mixin will be injected into all components.
       // In this case, the mounted() method runs when the component is added to the DOM.
       created() {
+        // Loop through all calls
         options.calls.forEach((call) => {
-          Vue.Calls[call.name] = call;
+          Vue.Calls[call.name] = call; // Initiate the call
         });
-        console.log(this.Calls);
       },
     });
   },
