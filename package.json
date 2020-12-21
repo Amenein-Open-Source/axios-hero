@@ -1,0 +1,26 @@
+{
+  "name": "vue-axios-hero",
+  "version": "1.0.0",
+  "description": "Implement axios as a built in plugin for your vuejs application and make endpoints more conviniently",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hekv/axios-hero.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "axios",
+    "fetch",
+    "curl"
+  ],
+  "author": "Mehdi Roshan Fekr (Amenein)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hekv/axios-hero/issues"
+  },
+  "homepage": "https://github.com/hekv/axios-hero#readme"
+}
