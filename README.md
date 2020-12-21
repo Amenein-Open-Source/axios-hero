@@ -1,5 +1,14 @@
 # Axios Hero (Vue Edition)
 
+<a href="./LICENSE" alt="License"><img src="https://img.shields.io/npm/l/@hekv/vue-axios-hero"/></a>
+<a href="https://www.codefactor.io/repository/github/hekv/vue-axios-hero"><img src="https://www.codefactor.io/repository/github/hekv/vue-axios-hero/badge" alt="CodeFactor" /></a>
+<a href="https://david-dm.org/hekv/vue-axios-hero"><img alt="David" src="https://img.shields.io/david/hekv/vue-axios-hero">
+</a>
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/hekv/vue-axios-hero">
+<a href="https://www.npmjs.com/package/@hekv/vue-axios-hero" alt="npm package"><img alt="npm" src="https://img.shields.io/npm/v/@hekv/vue-axios-hero"></a>
+
+---
+
 <code>npm install --save vue-axios-hero</code>
 
 **Axios hero is not an alternative to axios but a utility tool to speed of your process of using axios so make sure you already have axios installed**
